@@ -1,0 +1,2 @@
+templates can be used for multipage sites/apps.
+jinja2 is used to make templates

@@ -1,0 +1,23 @@
+<!-- we use this base file as base template for HTML files. We will use jinja2 to create blocks in specific
+ parts and edit those blocks in other files. those files will automatically connect to the base file to 
+ the boilerplate. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <!-- double curly are used to return string in jinja2 -->
+    <!-- in url_for() static is the name of folder to be connected.it will return a url which will be returned 
+     as a string by jinja -->
+
+    <!-- <title>Document</title> instead of this title tag, we will create jinja2 head block -->
+     {% block head %}{% endblock %}
+
+</head>
+<body>
+    <!-- jnija2 body block -->
+    {% block body %}{% endblock %} 
+</body>
+</html>

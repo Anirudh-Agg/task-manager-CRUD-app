@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    /* background-color: lightblue; */
+    background-image: url(../images/Purple-Modern-Pattern-Simple-Background-Image.webp);
+}
+
+.content {
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+}
+
+.pg-title{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 3px 3px 5px #000;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.task-table {
+    border-radius: 15px;
+    background: rgb(232, 195, 195);
+}
